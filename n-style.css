@@ -11,17 +11,14 @@ header {
  .header-bar {
         display: flex;
         flex-wrap: wrap; /* Allows wrapping on small screens */
-        align-items: center;
-        justify-content: space-between;
-        gap: 10px; /* Space between items */
     }
 
  @media (max-width: 500px) {
         .header-bar {
             flex-direction: column; /* Stack items vertically */
-            align-items: flex-start;
+            flex:100%;
         }
-		}
+	}
 
 footer {
 	background: white;
