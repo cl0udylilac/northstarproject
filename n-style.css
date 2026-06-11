@@ -1,4 +1,4 @@
-header {
+nav {
 	background: white;
 	border: solid;
 	border-width: 1px;
@@ -6,15 +6,12 @@ header {
 	margin: -10px;
 	color: black;
 	text-align: center
+	display: flex;
+    flex-wrap: wrap;
 }
 
- .header-bar {
-        display: flex;
-        flex-wrap: wrap; /* Allows wrapping on small screens */
-    }
-
  @media (max-width: 500px) {
-        .header-bar {
+        .nav-bar {
             flex-direction: column; /* Stack items vertically */
             flex:100%;
         }
