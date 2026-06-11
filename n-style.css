@@ -6,12 +6,9 @@ nav {
 	margin: -10px;
 	color: black;
 	text-align: center
+	display: flex;
+    flex-wrap: wrap;
 }
-
- .nav-bar {
-        display: flex;
-        flex-wrap: wrap; /* Allows wrapping on small screens */
-    }
 
  @media (max-width: 500px) {
         .nav-bar {
