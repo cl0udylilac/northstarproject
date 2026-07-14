@@ -1,21 +1,25 @@
-nav {
-	background: white;
-	border: solid;
-	border-width: 1px;
-	padding: 10px;
-	margin: -10px;
-	color: black;
-	text-align: center
-	display: flex;
-    flex-wrap: wrap;
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d1d0d1;
 }
 
- @media (max-width: 500px) {
-        .nav-bar {
-            flex-direction: column; /* Stack items vertically */
-            flex:100%;
-        }
-	}
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  text-align: center;
+  padding: 4px 18px;
+  text-decoration: none;
+  vertical-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li {float: none;}
+}
 
 footer {
 	background: white;
@@ -34,7 +38,6 @@ footer {
 .link {
 	text-decoration: none;
 	color: black;
-	margin: 50px;
 	text-align: center;
 }
 
