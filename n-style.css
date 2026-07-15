@@ -46,6 +46,11 @@ span {
 	padding: 5px;
 }
 
+span:hover {
+	background-color: #3b0361;
+	color: lavender;
+}
+
 footer {
 	margin: -10px;
   	padding: 20px;
